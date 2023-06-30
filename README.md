@@ -11,6 +11,7 @@ Click on the SimplyPresent button in the bottom right and select 'Edit'. Then yo
 ## Starting a presentation
 
 If you press the SimplyPresent button in the bottom right and select 'present', you start the presentation mode. This shows the view for you, as presenter.
+To show a full screen presentation on a different screen, press the 'start sharing' button. Then copy the share link to a new window. This window will follow the presenter window. You can use this URL in another browser or another computer as well.
 
 ## Customizing SimplyPresent
 
