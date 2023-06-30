@@ -1,18 +1,42 @@
-# Initial setup
-Before starting the SimplyCode project, you need to do a few things before SimplyCode can work:
+# SimplyPresent
+A [Solid](https://solidproject.org/) presentation tool.
 
-1. Change group to muze of all files and directories from the root folder
+SimplyPresent allows you to make a browser-based presentation and store it in a Solid datapod. You can copy the dist/index.html file in its own folder in a solid data pod. If you then open that URL in your browser, you will see this screen:
 
-2. Change ownership and group to www-data
-change the owner and group to www-data of the directories:
-- www/data
-- www/files
-- www/img
-- www/api/data
+![image](https://github.com/SimplyEdit/SimplyPresent/assets/1006453/961dc5b2-e587-4d2e-a441-c3f44ba3e00e)
 
-## Usage of this skeleton
-When cloning this repo, you want to remove the remote origin by removing the .git/ directory and creating a new .git with `git init` .
+Click on the SimplyPresent button in the bottom right and select 'Edit'. Then you can add slides to your presentation. Press save to save the changes.
 
-This will ensure that you won't push any changes to your new project in this repository.
+## Customizing SimplyPresent
 
-Another option is to fork this repository and work from that version.
+SimplyPresent is made to be customized. You can change any of the CSS variables in use to change the colors and fonts. These are the default setting:
+
+```css
+:root {
+    --highlight-dark: #009c55;
+    --highlight-light: #00d455;
+    --highlight-color: #fff;
+    --highlight-background: linear-gradient( to bottom, var(--highlight-light), var(--highlight-dark) );
+
+    --support-dark: #2ba3b0;
+    --support-light: #4fb7c2;
+    --support-color: #fff;
+    --support-background: linear-gradient( to bottom, var(--support-light), var(--support-dark) );
+
+    --grey-dark: #38393c;
+    --grey-medium: #7f8185;
+    --grey-light: #e9ebec;
+    --grey-dark: #38393c;
+    --black: #000;
+    --white: #fff;
+    --grey-background: var(--grey-dark);
+
+    --font-family: 'Alegreya Sans', sans-serif;
+    --font-size: 20px;
+    --line-height: 1.5em;
+    --color: #7f8185;
+    --background: #fff;
+}
+```
+
+SimplyPresent defines 6 slide templates, based on 4 square grid. The easiest way to change these, or add your own slides, is to open SimplyPresent in the SimplyCode editor. To do that follow the steps in the [SimplyCode tutorial](https://tutorial.dev.muze.nl/), under 'Introducing SimplyPresent'.
