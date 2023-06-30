@@ -7,6 +7,10 @@ SimplyPresent allows you to make a browser-based presentation and store it in a 
 
 Click on the SimplyPresent button in the bottom right and select 'Edit'. Then you can add slides to your presentation. Press save to save the changes.
 
+## Starting a presentation
+
+If you press the SimplyPresent button in the bottom right and select 'present', you start the presentation mode. This shows the view for you, as presenter.
+
 ## Customizing SimplyPresent
 
 SimplyPresent is made to be customized. You can change any of the CSS variables in use to change the colors and fonts. These are the default setting:
@@ -40,3 +44,12 @@ SimplyPresent is made to be customized. You can change any of the CSS variables 
 ```
 
 SimplyPresent defines 6 slide templates, based on 4 square grid. The easiest way to change these, or add your own slides, is to open SimplyPresent in the SimplyCode editor. To do that follow the steps in the [SimplyCode tutorial](https://tutorial.dev.muze.nl/), under 'Introducing SimplyPresent'.
+
+## Funding
+
+This project is funded through the [NGI Assure Fund](https://nlnet.nl/assure/), a fund
+established by [NLnet](https://nlnet.nl) with financial support from the European Commission's
+[Next Generation Internet](https://ngi.eu) program. Learn more on the [NLnet project page](https://nlnet.nl/project/SES/).
+
+[<img src="https://nlnet.nl/logo/banner.png" alt="NLNet foundation logo" width="300" />](https://nlnet.nl/)
+[<img src="https://nlnet.nl/image/logos/NGIAssure_tag.svg" alt="NGI Assure Logo" width="300" />](https://nlnet.nl/assure/)
