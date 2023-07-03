@@ -2,7 +2,7 @@
 
 A [Solid](https://solidproject.org/) presentation tool.
 
-SimplyPresent allows you to make a browser-based presentation and store it in a Solid datapod. You can copy the dist/index.html file in its own folder in a solid data pod. If you then open that URL in your browser, you will see this screen:
+SimplyPresent allows you to make a browser-based presentation and store it in a [Solid datapod](https://solidproject.org/users/get-a-pod). You can copy the dist/index.html file in its own folder in a solid data pod. If you then open that URL in your browser, you will see this screen:
 
 ![image](https://github.com/SimplyEdit/SimplyPresent/assets/1006453/961dc5b2-e587-4d2e-a441-c3f44ba3e00e)
 
