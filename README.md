@@ -17,7 +17,9 @@ To show a full screen presentation on a different screen, press the 'start shari
 
 ## Customizing SimplyPresent
 
-SimplyPresent is made to be customized. You can change any of the CSS variables in use to change the colors and fonts. These are the default setting:
+SimplyPresent is made to be customized. The default slides have a logo image, which you can upload with the image browse button. Insert or select an image, then press browse. Now upload an SVG image call 'logo-white.svg' in the root.
+
+You can also change the colors and fonts, by setting a few CSS variables. These are the default settings:
 
 ```css
 :root {
