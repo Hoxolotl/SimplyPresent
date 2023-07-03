@@ -13,6 +13,8 @@ Click on the SimplyPresent button in the bottom right and select 'Edit'. Then yo
 If you press the SimplyPresent button in the bottom right and select 'present', you start the presentation mode. This shows the view for you, as presenter.
 To show a full screen presentation on a different screen, press the 'start sharing' button. Then copy the share link to a new window. This window will follow the presenter window. You can use this URL in another browser or another computer as well.
 
+![image](https://github.com/SimplyEdit/SimplyPresent/assets/1006453/f2e82818-4766-4ba1-9f5d-34c2829c4b5e)
+
 ## Customizing SimplyPresent
 
 SimplyPresent is made to be customized. You can change any of the CSS variables in use to change the colors and fonts. These are the default setting:
