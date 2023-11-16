@@ -4,9 +4,18 @@ var solidStorage = (function() {
   let solidFetch = function(url, options) {
     return fetch(url, options)
     .then(response => {
-      if (response.status==401) {
-        solidFetch = solidAuthFetcher.fetch
-        return solidFetch(url, options)
+      if (!response.ok) {
+        switch (response.status) {
+          case 401:
+          case 402:
+          case 403:
+            solidFetch = solidAuthFetcher.fetch
+            return solidFetch(url, options)
+          break
+          default:
+            alert('Failed to '+options.method+' '+url+'. Reason: '+response.status+': '+response.statusText)
+          break
+        }
       }
       return response
     })
@@ -137,10 +146,18 @@ var solidStorage = (function() {
           this.session = session;
           return callback();
         } else {
-          var oidcIssuer = prompt("Enter the URL of your Solid WebID provider:", "https://solidcommunity.net/");
+          var oidcIssuer = prompt("Enter the URL of your Solid WebID provider:", "https://solid-nextcloud.muze.nl/");
+          if (!oidcIssuer) {
+            return
+          }
+          let url = new URL(location.href)
+          if (url.hash=='#simply-edit') {
+              url.searchParams.set('simply-edit',1)
+          }
+          url.hash='' // not allowed in redirect_uri, so use ?simply-edit instead
           solidAuthFetcher.login({
             oidcIssuer: oidcIssuer,
-            redirect: location.href
+            redirect: url.href
           })
           .then((session) => {
             this.session = session;

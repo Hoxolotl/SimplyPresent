@@ -3,7 +3,17 @@
     root: document.location.pathname
   });
   document.addEventListener('simply-content-loaded', function() {
-    editor.pageData.page='slides'
+    let url = new URL(document.location.href)
+    if (url.searchParams.has('simply-edit')) {
+      editor.pageData.page = 'slides-editmode'
+      url.searchParams.delete('simply-edit')
+      url.hash='#simply-edit'
+      window.setTimeout(function() {
+        window.location.href = url.href
+      },100)
+    } else {
+      editor.pageData.page='slides'
+    }
     window.setTimeout(function() {
         simplyApp.actions.start()
     },10);
