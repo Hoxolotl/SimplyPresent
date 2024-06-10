@@ -1,18 +1,11 @@
-          
-            <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
-      
-              <head>
+  <head>
     <meta charset="utf-8">
-      
-                      <!-- Component CSS -->
-          <style>
-      
-                  
-                    
-                  
-                                  /* about */
-            .about {
+    <!-- Component CSS -->
+    <style>
+      /* about */
+      .about {
         padding: 0;
         width: 50%;
         min-width: 500px;
@@ -44,10 +37,8 @@
         border: 0;
         box-shadow: var(--ds-shadow-small);
       }
-                      
-                    
-                                  /* menu */
-            #SimplyPresentButton {
+      /* menu */
+      #SimplyPresentButton {
         background-color: white;
         border-radius: 50%;
         width: 50px;
@@ -87,17 +78,13 @@
       #SimplyPresentState:checked ~ #SimplyPresentBackdrop {
         display: block;
       }
-                      
-                    
-                                  /* share */
-            .simplypresent-sharing {
+      /* share */
+      .simplypresent-sharing {
         font-size: 0.6rem;
         padding: var(--ds-spacing);
       }
-                      
-                    
-                                  /* 0-welcome */
-            .welcome-image {
+      /* 0-welcome */
+      .welcome-image {
         display: flex;
         padding: 2em;
         background: #eeeeee; /* Old browsers */
@@ -111,10 +98,8 @@
       .slides-present.simply-empty .welcome-slide {
         display: grid;
       }
-                      
-                    
-                                  /* 1-slides */
-            body {
+      /* 1-slides */
+      body {
       	width: 100%;
       	height: 100%;
       	overflow: hidden;
@@ -150,10 +135,8 @@
       	display: grid;
       	background: var(--white);
       }
-                      
-                    
-                                  /* 2-slides-content */
-            .slide-columns {
+      /* 2-slides-content */
+      .slide-columns {
       	grid-template-columns: 50% 50%;
       }
       .slide-grid {
@@ -266,10 +249,8 @@
       	margin-top: 0;
       }
       
-                      
-                    
-                                  /* 3-portrait */
-            @media (orientation: portrait) {
+      /* 3-portrait */
+      @media (orientation: portrait) {
       	.slides {
       		font-size: 3vh;
       	}
@@ -285,16 +266,12 @@
       		padding: 2em 1em;
       	}
       }
-                      
-                    
-                                  /* 5-reduced-motion */
-            @media screen and (prefers-reduced-motion: reduce) { 
+      /* 5-reduced-motion */
+      @media screen and (prefers-reduced-motion: reduce) { 
       	scroll-behavior: initial;
       }
-                      
-                    
-                                  /* 4. editmode */
-            body[data-simply-edit] {
+      /* 4. editmode */
+      body[data-simply-edit] {
       	overflow-y: auto;
       }
       .slides-editmode-options {
@@ -340,10 +317,8 @@
         user-select: none;
         outline: 0 !important;
       }
-                      
-                    
-                                  /* slide-notes-editmode */
-            .slides-edit .slide-notes label {
+      /* slide-notes-editmode */
+      .slides-edit .slide-notes label {
         display: block;
       }
       .slides-edit .slide-notes textarea {
@@ -351,20 +326,16 @@
         width: 100%;
         height: 6em;
       }
-                      
-                    
-                                  /* slide-timer-editmode */
-            .slide-time-edit {
+      /* slide-timer-editmode */
+      .slide-time-edit {
         display: grid;
         grid-template-columns: 1fr 1fr;
       }
       .slide-time-edit input {
       	margin-left: 1em;
       }
-                      
-                    
-                                  /* speaker-notes */
-            :root {
+      /* speaker-notes */
+      :root {
         --speaker-notes-font: monospace;
         --speaker-notes-font-size: 1.5em;
         --speaker-notes-padding: 0.5em;
@@ -385,10 +356,8 @@
         padding: var(--speaker-notes-padding);
         overflow: auto;
       }
-                      
-                    
-                                  /* default */
-            @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i');
+      /* default */
+      @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i');
       
       :root {
       	--highlight-dark: #009c55;
@@ -471,10 +440,8 @@
       	background: var(--highlight-background);
       	color: var(--highlight-color);
       }
-                      
-                    
-                                  /* image-styles */
-            img.contain {
+      /* image-styles */
+      img.contain {
         object-fit: contain;
       }
       img.cover {
@@ -483,10 +450,8 @@
       img.actual {
         object-fit: none;
       }
-                      
-                    
-                                  /* timer */
-            :root {
+      /* timer */
+      :root {
         	--timer-border-size: 3px;
           --timer-border-radius: 3px;
           --timer-border-color: var(--support-dark);
@@ -579,21 +544,12 @@
       }
       
       
-                      
-                    
-                </style>
-          <!-- /Component CSS -->
-      
-        
-      
-                      <!-- Page CSS -->
-          <style>
-      
-                  
-                    
-                  
-                                  /* present */
-            .slides-presentor {
+    </style>
+    <!-- /Component CSS -->
+    <!-- Page CSS -->
+    <style>
+      /* present */
+      .slides-presentor {
         display: grid;
         grid-template-columns: 33.333vw 33.333vw 33.333vw;
         grid-template-rows: 33.333vh 33.333vh 33.333vh;
@@ -634,20 +590,11 @@
         grid-column: 3;
         grid-row: 3;
       }
-                      
-                    
-                </style>
-          <!-- /Page CSS -->
-      
-        
-      
-                      <!-- Head HTML -->
-      
-                  
-                    
-                  
-                <!-- ds-css -->
-          <style>
+    </style>
+    <!-- /Page CSS -->
+    <!-- Head HTML -->
+    <!-- ds-css -->
+    <style>
     :root {
         --ds-spacing: 1em;
         --ds-font-size: calc(1.25 * 1rem);
@@ -932,10 +879,8 @@
         justify-content: center;
     }
     </style>
-      
-                    
-                <!-- portrait-mode -->
-          <style>
+    <!-- portrait-mode -->
+    <style>
       @media (orientation: portrait) {
         .slides {
           font-size: 3vh;
@@ -953,18 +898,14 @@
         }
       }
     </style>
-      
-                    
-                <!-- reduced-motion -->
-          <style>
+    <!-- reduced-motion -->
+    <style>
       @media screen and (prefers-reduced-motion: reduce) { 
         scroll-behavior: initial;
       }
     </style>
-      
-                    
-                <!-- solid -->
-          <script src="https://cdn.jsdelivr.net/gh/solid-contrib/solid-auth-fetcher/examples/bundle/solid-auth-fetcher.bundle.js"></script>
+    <!-- solid -->
+    <script src="https://cdn.jsdelivr.net/gh/solid-contrib/solid-auth-fetcher/examples/bundle/solid-auth-fetcher.bundle.js"></script>
     <script>
     var solidStorage = (function() {
       let solidFetch = function(url, options) {
@@ -1134,51 +1075,26 @@
       };
     })()
     </script>
-      
-                    
-                <!-- /Head HTML -->
-      
-        
-      
-                      <script>
-            var simplyDataApi = {};
-            var simplyApp = {};
-      
-            window.addEventListener("simply-content-loaded", function() {
-              simply.bind = false;
-      
-      
-                          /* Raw API */
-              var simplyRawApi = {
-      
-                  
-                    
-                  
-                    };
-              /* End of Raw API */
-      
-        
-      
-                          /* Data API */
-              simplyDataApi = {
-      
-                  
-                    
-                  
-                    };
-              /* End of Data API */
-      
-        
-                    simplyApp = simply.app({
-      
-      
-                            /* Actions */
-                actions: {
-      
-                  
-                    
-                  
-                        hhsAddSlideChangeListener : function() {
+    <!-- /Head HTML -->
+    <script>
+      var simplyDataApi = {};
+      var simplyApp = {};
+      window.addEventListener("simply-content-loaded", function() {
+        simply.bind = false;
+        /* Raw API */
+        var simplyRawApi = {
+          
+        };
+        /* End of Raw API */
+        /* Data API */
+        simplyDataApi = {
+          
+        };
+        /* End of Data API */
+        simplyApp = simply.app({
+          /* Actions */
+          actions: {
+            "hhsAddSlideChangeListener" : function() {
               document.addEventListener("simply-data-changed", function(event) {
                 if (
                   (event.data.dataBinding.parentKey == "/") && 
@@ -1198,9 +1114,7 @@
                 }
               })
             },
-      
-                    
-                        hhsConnectSpace : async function(words) {
+            "hhsConnectSpace" : async function(words) {
               simplyApp.actions.hhsAddSlideChangeListener()
               let resources = await simplyHHS.init()
               let space = HHS.Space.fromWordCode(words, resources) // replace 3 words;
@@ -1218,9 +1132,7 @@
               this.app.actions.hhsUpdateSpace(ds)
               return ds
             },
-      
-                    
-                        hhsCreateSpace : async function() {
+            "hhsCreateSpace" : async function() {
               let resources = await simplyHHS.init()
               let ds = new simplyHHS.DocumentSpace()
               let space = HHS.Space.fromEntryPoint(ds, resources)
@@ -1242,9 +1154,7 @@
               console.log(document.location.origin + document.location.pathname + "#words/" + editor.pageData.hhsWords.join("/"))
               return editor.pageData.hhsWords
             },
-      
-                    
-                        hhsUpdateSpace : async function(ds) {
+            "hhsUpdateSpace" : async function(ds) {
               let data = ds.getValue()
               if (data) {
                 data = JSON.parse(data)
@@ -1259,32 +1169,24 @@
                 }
               }
             },
-      
-                    
-                        start : async function() {
+            "start" : async function() {
               this.app.started = true
               this.app.keyboard = simply.keyboard(this.app, slidesKeyboard)
               this.app.view.slidesTotal = 10
               await this.call('initMenu')
               await this.call('initSlides')
             },
-      
-                    
-                        hideHelper : async function() {
+            "hideHelper" : async function() {
               var helper = document.getElementById('SimplyPresentButton')
               if (helper) {
                 helper.style.visibility = 'hidden'
                 helper.classList.remove('simply-visible')
               }
             },
-      
-                    
-                        hideHelperMenu : async function() {
+            "hideHelperMenu" : async function() {
               document.getElementById('SimplyPresentState').checked = false
             },
-      
-                    
-                        initMenu : async function() {
+            "initMenu" : async function() {
               var checkHelper = function() {
                 if ( location.hash == '#simply-edit' || location.hash == '#present') {
                   simplyApp.actions.hideHelper()
@@ -1293,23 +1195,17 @@
               window.addEventListener('hashchange', checkHelper)
               checkHelper()
             },
-      
-                    
-                        showHelper : async function() {
+            "showHelper" : async function() {
               var helper = document.getElementById('SimplyPresentButton')
               if (helper) { 
                 helper.style.visibility = 'visible'
                 helper.classList.add('simply-visible')
               }
             },
-      
-                    
-                        showHelperMenu : async function() {
+            "showHelperMenu" : async function() {
               document.getElementById('SimplyPresentState').checked = true
             },
-      
-                    
-                        setNextSlide : async function() {
+            "setNextSlide" : async function() {
               let nextSlidePreview = document.querySelector('.slides.slides-next');
               if (nextSlidePreview) {
                 let currentSlide = nextSlidePreview.querySelector('.slide:nth-child('+(parseInt(editor.pageData.slide))+')')
@@ -1321,17 +1217,13 @@
                 }
               }
             },
-      
-                    
-                        share : async function() {
+            "share" : async function() {
               this.app.actions.hhsCreateSpace()
             },
-      
-                    
-                        gotoSlide : async function(slide) {
+            "gotoSlide" : async function(slide) {
               slide = parseInt(slide)
               if (slide===editor.pageData.slide) {
-              return
+            	return
               }
               editor.pageData.slide = slide // also triggers an update to HHS state;
               simplyApp.actions.setSlide()
@@ -1341,9 +1233,7 @@
               simplyApp.actions.setSpeakerNotesSlide()
               return true
             },
-      
-                    
-                        initSlides : async function() {
+            "initSlides" : async function() {
               function isScrolledIntoView(el) {
                 var rect = el.getBoundingClientRect()
                 var parentRect = el.parentNode.getBoundingClientRect()
@@ -1375,7 +1265,7 @@
               var hash = window.location.hash.substr(1)
               slides.forEach(function(slide) {
                 slide.id='slide-'+count
-              slide.slide = count
+            	slide.slide = count
                 count++
                 if (hash == slide.id) {
                   slide.scrollIntoView()
@@ -1396,26 +1286,20 @@
                 500
               ), true)
             },
-      
-                    
-                        setSlide : function() {
+            "setSlide" : function() {
               let slides = document.querySelector('.slides-present')
               if (slides) {
                 slide  = Math.max(1, Math.min(editor.pageData.slide, slides.querySelectorAll('.slide').length))
                 slides.scrollLeft = document.getElementById('slide-'+slide).offsetLeft
               }
             },
-      
-                    
-                        setWindowHash : function() {
+            "setWindowHash" : function() {
               // FIXME: Should we set it differently for different page types?
               if (editor.pageData.page == "slides") {
                 window.location.hash='#slide/'+editor.pageData.slide
               }
             },
-      
-                    
-                        setSpeakerNotesSlide : function() {
+            "setSpeakerNotesSlide" : function() {
               document.querySelectorAll(".slides-speaker-notes-current").forEach(function(element) {
                 element.classList.remove("slides-speaker-notes-current")
               })
@@ -1425,14 +1309,10 @@
                 newSlide.scrollIntoView()
               }
             },
-      
-                    
-                        pauseTimer : async function() {
+            "pauseTimer" : async function() {
               editor.pageData.isTimerPaused = true
             },
-      
-                    
-                        setTimerSlide : function() {
+            "setTimerSlide" : function() {
               simplyApp.actions.startTimer()
               document.querySelectorAll(".slides-timer-current").forEach(function(element) {
                 element.classList.remove("slides-timer-current")
@@ -1442,9 +1322,7 @@
                 newSlide.classList.add("slides-timer-current")
               }
             },
-      
-                    
-                        startTimer : async function() {
+            "startTimer" : async function() {
               if (!editor.pageData['timerStarted']) {
                 editor.pageData['timerStarted'] = new Date().toJSON()
               }
@@ -1455,17 +1333,13 @@
                 editor.pageData.isTimerPaused = false
               }
             },
-      
-                    
-                        stopTimer : async function() {
+            "stopTimer" : async function() {
               if (editor.pageData.timerInterval) {
                 clearInterval(editor.pageData.timerInterval)
                 editor.pageData.timerInterval = null
               }
             },
-      
-                    
-                        timerInterval : function() {
+            "timerInterval" : function() {
               if (editor.pageData.isTimerPaused) {
                 editor.pageData['timerPauseDuration']++
               }
@@ -1484,55 +1358,34 @@
               editor.pageData['total-time-left'] = editor.pageData.totalTime - timeSpent
               editor.pageData['slide-time-left'] = slidesElapsed - timeSpent
             }
-      
-                    
-                      },
-                /* /Actions */
-      
-        
-      
-                            /* Commands */
-                commands: {
-      
-                  
-                    
-                  
-                        share : function(el) {
+          },
+          /* /Actions */
+          /* Commands */
+          commands: {
+            "share" : function(el) {
               simplyApp.actions.hhsCreateSpace()
             },
-      
-                    
-                        startPresentation : async function(el, value) {
-              try {
-                let connection = await simplyPresentRequest.start()
-              } catch(e) {
-                // ignore
-              }
+            "startPresentation" : async function(el, value) {
+            	try {
+            		let connection = await simplyPresentRequest.start()
+            	} catch(e) {
+            		// ignore
+            	}
             },
-      
-                    
-                        aboutClose : function(el) {
+            "aboutClose" : function(el) {
               el.closest('dialog').close();
             },
-      
-                    
-                        aboutOpen : function() {
+            "aboutOpen" : function() {
               document.querySelector('dialog.about').showModal();
             },
-      
-                    
-                        edit : async function() {
+            "edit" : async function() {
               window.location.hash='simply-edit'
               this.app.actions.hideHelperMenu()
             },
-      
-                    
-                        hideMenu : async function() {
+            "hideMenu" : async function() {
               this.app.actions.hideHelperMenu()
             },
-      
-                    
-                        present : async function() {
+            "present" : async function() {
               document.location.hash = "#present"
             /*
             if (simplyPresentConnection) {
@@ -1547,652 +1400,477 @@
             */
               this.app.actions.hideHelperMenu()
             },
-      
-                    
-                        showMenu : async function() {
+            "showMenu" : async function() {
               this.app.actions.showHelperMenu()
             },
-      
-                    
-                        copyLink : function(el) {
+            "copyLink" : function(el) {
               let slidesLink = el.href
               navigator.clipboard.writeText(slidesLink)
               alert("The link is now in your clipboard!")
             },
-      
-                    
-                        share : function(el) {
+            "share" : function(el) {
               this.app.actions.share()
             },
-      
-                    
-                        nextSlide : async function() {
+            "nextSlide" : async function() {
               let max = editor.pageData.slides.length
               slide = Math.min(max, editor.pageData.slide + 1)
               return simplyApp.actions.gotoSlide(slide)
             },
-      
-                    
-                        prevSlide : async function() {
+            "prevSlide" : async function() {
               slide = Math.max(1, editor.pageData.slide - 1)
               return simplyApp.actions.gotoSlide(slide)
             },
-      
-                    
-                        resetTime : function(el) {
+            "resetTime" : function(el) {
               el.parentElement.querySelector("input").value=""
             },
-      
-                    
-                        pauseTimer : async function() {
+            "pauseTimer" : async function() {
               return this.actions.pauseTimer()
             },
-      
-                    
-                        startTimer : async function() {
+            "startTimer" : async function() {
               return this.actions.startTime()
             },
-      
-                    
-                        stopTimer : async function() {
+            "stopTimer" : async function() {
               return this.actions.stopTimer()
             }
-      
-                    
-                      },
-                /* /Commands */
-      
-        
-      
-                            /* Routes */
-                routes: {
-      
-                  
-                    
-                  
-                        "#words/:word1/:word2/:word3/:nextHash" : async function(params) {
+          },
+          /* /Commands */
+          /* Routes */
+          routes: {
+            "#words/:word1/:word2/:word3/:nextHash" : async function(params) {
               await simplyApp.actions.start()
               await simplyApp.actions.hhsConnectSpace([params.word1, params.word2, params.word3])
               document.location.hash=params.nextHash
             },
-      
-                    
-                        "#words/:word1/:word2/:word3" : async function(params) {
+            "#words/:word1/:word2/:word3" : async function(params) {
               await simplyApp.actions.start()
               simplyApp.actions.hhsConnectSpace([params.word1, params.word2, params.word3])
               editor.pageData.page = 'slides'
               simplyApp.actions.initSlides() 
             },
-      
-                    
-                        "#slide/:slide/" : async function(params) {
-              editor.pageData.page = 'slides'
+            "#slide/:slide/" : async function(params) {
+            	editor.pageData.page = 'slides'
                 if (!simplyApp.started) {
                     await simplyApp.actions.start()
                 }
                 if (!params.slide) {
-                params.slide=1;
+            		params.slide=1;
                 }
                 simplyApp.actions.gotoSlide(parseInt(params.slide))
             },
-      
-                    
-                        "#share" : function(params) {
+            "#share" : function(params) {
               simplyApp.actions.share()
             },
-      
-                    
-                        "#next-slide" : async function(params) {
+            "#next-slide" : async function(params) {
               editor.pageData.page = 'next-slide'
               await simplyApp.actions.start()
               simplyApp.actions.gotoSlide(1)
             },
-      
-                    
-                        "#present" : async function(params) {
+            "#present" : async function(params) {
               editor.pageData.page = "present"
               editor.pageData.hhsWords = [];
               await simplyApp.actions.start()
               simplyApp.actions.gotoSlide(1)
             },
-      
-                    
-                        "#slides" : async function(params) {
+            "#slides" : async function(params) {
               editor.pageData.page='slides'
               await simplyApp.actions.start()
             },
-      
-                    
-                        "#simply-edit" : function(params) {
+            "#simply-edit" : function(params) {
               editor.pageData.page = "slides-editmode"
             },
-      
-                    
-                        "#simply-edit?code=:code" : function(params) {
-              let url = new URL(location.href)
-              url.search = url.hash.replace(/#simply-edit/,'')
-              url.hash = '#simply-edit'
-              window.location = url.href
-            }
-                  ,
-      
-                    
-                        "#speaker-notes" : async function(params) {
+            "#speaker-notes" : async function(params) {
               editor.pageData.page = 'speaker-notes'
               await simplyApp.actions.start()
             },
-      
-                    
-                        "#timer" : async function(params) {
+            "#timer" : async function(params) {
               editor.pageData.page = 'timer'
               await simplyApp.actions.start()
             }
-      
-                    
-                      }
-                /* /Routes */
-      
-        
-                    });
-      
-      
-                          function clone(ob) {
-                return JSON.parse(JSON.stringify(ob));
-              }
-      
-              function updateDataSource(name) {
-                document.querySelectorAll('[data-simply-data="'+name+'"]').forEach(function(list) {
-                  editor.list.applyDataSource(list, name);
-                  list.dataBindingPaused = 0;
-                });
-              }
-      
-        
-                  });
-          </script>
-      
-        
-        </head>
-        
-      
-              <body>
-  
-      
-                      <!-- Body HTML -->
-      
-                  
-                    
-                  
-              <!-- /Body HTML -->
-      
-        
-      
-                    <!-- Component HTML templates -->
-      
-                  
-                    
-                  
-              <template id="about">
-            <dialog class="about">
-        <div class="about-left text-content text-smaller">
-          <h1>About</h1>
-          <p>SimplyPresent is made by <a href="https://muze.nl/" target="_blank">{muze}</a> as OpenSource.
-            You can find the sourcecode at <a href="https://github.com/Poef/SimplyPresent" target="_blank">github.com/SimplyEdit/SimplyPresent.</a></p>
-          <p>SimplyPresent and SimplyCode are made possible with funding and help from the <a href="https://nlnet.nl/" target="_blank">NLnet Foundation</a>.    
-        </div>
-        <div class="about-right welcome-image">
-          <svg viewBox="0 0 124.332 18.909" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg"><defs id="defs2"><path id="rect49632" d="M82.256 400.615H536.32v89.364H82.256z"/><path id="rect4851" d="M81.545 293.798h455.187v111.86H81.545z"/></defs><g id="layer1" transform="translate(-49.049 -59.89)"><path d="M117.781 70.261q0-1.866-.616-2.7-.606-.834-1.866-.834-1.09 0-1.658.843-.568.844-.568 2.208 0 1.573.7 2.425.711.853 1.877.853.947 0 1.534-.767.597-.768.597-2.028zm2.681-.682q0 1.26-.312 2.321-.313 1.061-.91 1.838-.587.767-1.468 1.203-.881.427-2.028.427-.871 0-1.563-.436-.682-.445-1.07-1.118v4.614h-.815q-.35 0-.682-.123-.332-.124-.588-.36-.246-.237-.407-.569-.152-.322-.152-.748v-6.329q0-1.298.304-2.387.303-1.09.937-1.857.645-.777 1.63-1.204.995-.426 2.368-.426 1.052 0 1.924.436.871.436 1.497 1.156.634.71.985 1.648.35.929.35 1.914z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83056"/><path d="M127.372 67.192q-.294-.114-.654-.209-.36-.095-.862-.095-.872 0-1.336.512-.464.512-.464 1.715v6.016h-.72q-.872 0-1.393-.427-.511-.426-.511-1.24V68.65q0-.777.208-1.526.218-.748.682-1.307.464-.56 1.203-.91.74-.35 1.772-.35.597 0 1.014.16.417.152.663.399.256.237.37.55.122.302.122.596v.929z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83053"/><path d="M134.234 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.465 0-.863.19-.397.18-.691.482-.294.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.587-.057.919-.17.34-.124.464-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.166.549-3.743.549h-1.705q.152.985.957 1.573.805.578 1.97.578.815 0 1.696-.2.882-.208 1.507-.786h.094V73q0 .502-.189.929-.18.426-.625.748-.446.322-1.175.502-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.379-2.358.379-1.062 1.052-1.8.682-.74 1.62-1.128.947-.398 2.074-.398.815 0 1.564.284.758.275 1.335.796.588.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83050"/><path d="M145.67 71.834q0 1.667-1.127 2.605-1.128.929-3.24.929-.72 0-1.336-.18-.606-.17-1.061-.455-.455-.284-.71-.654-.247-.37-.247-.777v-1.174h.095q.208.189.55.378.34.18.766.323.427.132.891.208.474.076.938.076 1.895 0 1.895-1.147 0-.227-.086-.388-.085-.17-.322-.303-.227-.142-.653-.246-.427-.105-1.109-.209-1.667-.227-2.473-.9-.805-.673-.805-1.876 0-.73.313-1.392.322-.664.9-1.156.587-.493 1.402-.777.815-.294 1.828-.294.891 0 1.516.209.635.199 1.042.53.408.322.588.72.19.398.19.768v.985h-.095q-.408-.408-1.232-.682-.824-.285-1.762-.285-1.194 0-1.649.332-.445.332-.445.834 0 .19.076.34.085.143.303.266.227.114.635.209.407.094 1.08.208 1.658.275 2.501.995t.843 1.98z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83047"/><path d="M153.535 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.464 0-.862.19-.398.18-.692.482-.293.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.588-.057.92-.17.34-.124.463-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.165.549-3.742.549h-1.706q.152.985.957 1.573.806.578 1.97.578.816 0 1.697-.2.88-.208 1.506-.786h.095V73q0 .502-.19.929-.18.426-.625.748t-1.175.502q-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.38-2.358.378-1.062 1.05-1.8.683-.74 1.62-1.128.948-.398 2.076-.398.815 0 1.563.284.758.275 1.336.796.587.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83044"/><path d="M165.437 75.13q-.871 0-1.393-.482-.511-.484-.511-1.223v-4.15q0-1.344-.55-1.941-.55-.607-1.563-.607-.853 0-1.374.616-.52.606-.52 1.734v6.054h-.778q-.833 0-1.335-.483-.493-.484-.493-1.223v-4.519q0-.833.284-1.639.284-.805.853-1.44.568-.634 1.459-1.013.9-.389 2.122-.389.929 0 1.743.303.815.294 1.421.89.616.588.976 1.45.36.863.36 1.971v6.092z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83041"/><path d="M167.166 65.079q0-.389.037-.663.048-.285.133-.512.085-.237.227-.436.152-.208.36-.464.275-.313.588-.512.322-.208.635-.208h.606v2.368h3.629v1.071q0 .407-.38.824-.378.417-1.174.417h-2.075v4.093q0 1.023.426 1.459.427.426 1.222.426 1.28 0 1.876-.37h.105v.93q0 .814-.578 1.278-.569.464-1.715.464-2 0-2.966-1.013-.956-1.023-.956-2.861z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83038"/><path class="st0" d="M54.764 69.142c-2.143-.344-2.831-.503-2.831-1.27 0-.53.397-1.19 2.222-1.19 1.19 0 2.302.238 3.122.687v-.582c0-1.428-1.323-2.275-3.572-2.275s-4.656 1.138-4.656 3.625c0 1.534.846 2.328 2.725 2.593 2.196.317 2.831.529 2.831 1.349 0 1.19-1.561 1.19-2.17 1.19-1.455 0-2.46-.343-3.122-.74v.529c0 .582 0 2.355 3.73 2.355 2.78 0 4.499-1.35 4.499-3.493 0-1.905-1.508-2.566-2.778-2.778z" id="path82600" style="stroke-width:.264583"/><path class="st0" d="M88.34 64.538c-3.678 0-5.716 2.09-5.716 5.874v5.794c0 1.614.582 2.302 1.958 2.302h1.032v-5.027s.027.397.635 1.112c.715.74 1.35.873 2.514.873 2.884 0 4.842-2.276 4.842-5.689 0-3.096-2.17-5.239-5.266-5.239zm.211 8.308c-1.296 0-2.514-.82-2.514-3.148 0-1.614 1.059-2.62 2.117-2.62 1.561 0 2.514.715 2.514 3.07-.027 1.64-.926 2.698-2.117 2.698z" id="path82602" style="stroke-width:.264583"/><path class="st0" d="M97.864 71.285v-7.937c0-1.614-.608-2.276-2.116-2.276h-.98v10.769c0 2.54 1.747 3.44 3.414 3.44.635 0 2.117-.133 2.117-1.403V72.9h-.477c-.846.027-1.958-.159-1.958-1.614z" id="path82604" style="stroke-width:.264583"/><path class="st0" d="M108.739 64.856h-1.508c-.291 2.09-1.085 4.895-1.905 6.535l-.318.662-.29-.688c-.583-1.376-1.35-3.52-1.747-5.24-.185-.846-1.059-1.296-1.8-1.296h-1.56c.529 2.831 2.354 7.409 3.915 9.737l.106.159-.106.211c-.476 1.059-1.058 1.482-2.143 1.588l-1.323.106v.608c0 1.138 1.006 1.561 1.879 1.561 2.143 0 2.805-.502 5.82-6.323 1.218-2.355 2.223-5.477 2.223-6.509.027-.503-.106-1.111-1.243-1.111z" id="path82606" style="stroke-width:.264583"/><path d="M60.135 63.56c.9 0 1.64-.689 1.64-1.535 0-.847-.74-1.535-1.64-1.535-.9 0-1.64.688-1.64 1.535 0 .846.74 1.534 1.64 1.534z" id="path82608" style="fill:#00d455;fill-opacity:1;stroke:#00d455;stroke-opacity:1;stroke-width:1.2;stroke-miterlimit:10"/><path class="st0" d="M69.713 67.184c1.217 0 1.852.741 1.852 2.17v3.916c0 1.402.502 1.878 2.01 1.878h.98v-5.741c0-1.826.952-2.223 1.772-2.223 1.323 0 1.932.715 1.932 2.276v3.81c0 1.217.344 1.878 2.116 1.878h.98v-5.635c0-3.202-1.694-4.975-4.737-4.975-1.481 0-2.698 1.085-3.148 1.8l-.37.582-.265-.635c-.291-.715-1.429-1.747-3.043-1.747-1.085 0-2.037.212-2.805.635-1.428.768-2.17 2.25-2.17 4.234v1.614c0 1.005-.475 1.508-1.48 1.614h-.054c-1.005-.08-1.481-.582-1.481-1.614v-3.546c0-1.772-.53-2.275-2.514-2.275h-.582v6.376c0 .953.238 1.694.688 2.196.661.715 2.064 1.508 3.89 1.508h.079c.502 0 .952-.079 1.323-.158l.079-.027c.9-.211 1.429-.529 1.72-.767l.08-.053c.37-.265 1.348-1.27 1.375-2.646v-2.196c0-.847.212-2.249 1.773-2.249z" id="path82610" style="stroke-width:.264583"/></g><style type="text/css" id="style82598">.st0{fill:#939598}</style></svg>
-        </div>
-        <button class="about-close" data-simply-command="aboutClose">✕</button>
-      </dialog>
-        </template>
-      
-                    
-              <template id="menu">
-            <div is="simply-component" rel="about"></div>
-      <button data-simply-command="showMenu" id="SimplyPresentButton" class="ds-button ds-button-naked ds-dropdown">
-        <img class="simplyPresentLogo" src="https://cdn.simplyedit.io/graphics/simply-present-centered.svg" alt="SimplyPresent">
-      </button>
-      <input id="SimplyPresentState" type="checkbox" class="ds-dropdown-state">
-      <nav class="ds-dropdown-nav">
-        <ul class="ds-dropdown-list">
-          <li><a class="ds-dropdown-item" tabindex="0" data-simply-command="present">Present</a></li>
-          <!-- li><a class="ds-dropdown-item" tabindex="0" data-simply-command="share">Share</a></li -->
-          <li><a class="ds-dropdown-item" tabindex="0" data-simply-command="edit">Edit</a></li>
-          <li class="ds-dropdown-divider"></li>
-          <li><a class="ds-dropdown-item" tabindex="0" data-simply-command="aboutOpen">About</a></li>
-        </ul>
-      </nav>
-      <div id="SimplyPresentBackdrop" data-simply-command="hideMenu"></div>
-        </template>
-      
-                    
-              <template id="next-slide">
-            <div class="slides slides-next" data-simply-list="slides">
-        <template data-simply-template="title" rel="title"></template>
-        <template data-simply-template="highlight" rel="highlight"></template>
-        <template data-simply-template="hald-grid" rel="half-grid"></template>
-        <template data-simply-template="grid" rel="grid"></template>
-        <template data-simply-template="full" rel="full"></template>
-        <template data-simply-template="columns" rel="columns"></template>
-      </div>
-        </template>
-      
-                    
-              <template id="sharing">
-            <div class="simplypresent-sharing">
-        <div
-             data-simply-field="hhsWords" 
-             data-simply-transformer="isShared"
-             data-simply-content="template"
-             data-simply-default-template="0"
-             data-simply-default-value="0"
-             >
-          <template data-simply-template="3">
-            <div>
-              <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="slidesLink">Slides</a>
-              <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="nextSlideLink">Next slide</a>
-              <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="timerLink">Timer</a>
-              <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="speakerNotesLink">Speaker notes</a>
-              <br>
-              Click the button to copy the sharing URL.<br>
-              <a data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="slidesLink">
-                <span data-simply-field="hhsWords" data-simply-transformer="slidesLink"></span>
-              </a>
-            </div>
-          </template>
-          <template data-simply-template="0">
-            <button class="ds-button ds-button-default" data-simply-command="share" >Start sharing</button> 
-          </template>
-        </div>
-      </div>
-        </template>
-      
-                    
-              <template id="columns">
-            <section class="slide slide-columns">
-        <img class="logo" src="img/logo.svg" alt="{logo}">
-        <div class="text-content text-middle" data-simply-field="text">
-        </div>
-        <img class="placeholder cover" data-simply-field="image" src="img/placeholder.jpg" alt="">
-      </section>
-        </template>
-      
-                    
-              <template id="custom">
-            <section class="slide slide-grid">
-      
-        <div class="text-content background-highlight">
-          <h1 data-simply-field="title">My Slide</h1>
-        </div>
-      
-      </section>
-        </template>
-      
-                    
-              <template id="full">
-            <section class="slide">
-        <img class="logo" src="img/logo.svg" alt="{logo}">
-        <div class="text-content text-center text-middle">
-          <div data-simply-field="text">text</div>
-        </div>
-      </section>
-        </template>
-      
-                    
-              <template id="grid">
-            <section class="slide slide-grid">
-        <img class="logo logo-white" src="img/logo-white.svg" alt="{logo}">
-        <div class="text-content background-highlight text-middle text-center">
-          <i class="icon fa" data-simply-field="icon"></i>
-          <h2 data-simply-field="title">title</h2>
-        </div>
-        <img alt="placeholder" data-simply-field="image" class="placeholder cover" src="img/placeholder.jpg">
-        <div class="text-content" data-simply-field="text">
-        </div>
-        <div class="text-content background-grey" data-simply-field="more-text">
-        </div>
-      </section>
-      
-        </template>
-      
-                    
-              <template id="half-grid">
-            <section class="slide slide-grid">
-        <img class="logo logo-white" src="img/logo-white.svg" alt="{logo}">
-        <div class="text-content background-highlight text-middle text-center">
-          <i class="icon fa" data-simply-field="icon"></i>
-          <h2 data-simply-field="title">title</h2>
-        </div>
-        <div class="text-content" data-simply-field="text">
-        </div>
-        <img data-simply-field="image" data-simply-content="attributes" data-simply-attributes="src" class="cover span-row-right placeholder" src="img/placeholder.jpg" alt="">
-      </section>
-        </template>
-      
-                    
-              <template id="highlight">
-            <section class="slide background-highlight">
-        <img class="logo logo-white" src="img/logo-white.svg" alt="{logo}">
-        <div class="text-content text-center text-middle">
-          <h2 data-simply-field="title">title</h2>
-          <div data-simply-field="text">text</div>
-        </div>
-      </section>
-        </template>
-      
-                    
-              <template id="title">
-            <section class="slide background-highlight">
-        <div class="text-content text-center text-middle">
-          <img class="center max50 logo-white" src="img/logo-white.svg" alt="{logo}">
-          <h1 data-simply-field="title">title</h1>
-          <div data-simply-field="text">text</div>
-        </div>
-      </section>
-        </template>
-      
-                    
-              <template id="slides">
-            <div class="slides slides-present" data-simply-list="slides" data-simply-sortable>
-        <div is="simply-component" rel="welcome-slide"></div>
-        <template data-simply-template="title" rel="title"></template>
-        <template data-simply-template="highlight" rel="highlight"></template>
-        <template data-simply-template="grid" rel="grid"></template>
-        <template data-simply-template="half-grid" rel="half-grid"></template>
-        <template data-simply-template="columns" rel="columns"></template>
-        <template data-simply-template="full" rel="full"></template>
-      </div>
-        </template>
-      
-                    
-              <template id="welcome-slide">
-            <section class="slide slide-columns welcome-slide">
-        <a href="https://www.muze.nl/" class="logo">made by {muze}</a>
-        <div class="text-content text-middle" data-simply-field="text">
-          <h2>Welcome</h2>
-          <p>This slideshow is currently empty.<br><br></p>
-          <p><a class="button highlight" href="?simply-edit">Edit this slideshow</a></p>
-        </div>
-        <div class="welcome-image" title="SimplyPresent">
-      	<svg viewBox="0 0 124.332 18.909" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg"><defs id="defs2"><path id="rect49632" d="M82.256 400.615H536.32v89.364H82.256z"/><path id="rect4851" d="M81.545 293.798h455.187v111.86H81.545z"/></defs><g id="layer1" transform="translate(-49.049 -59.89)"><path d="M117.781 70.261q0-1.866-.616-2.7-.606-.834-1.866-.834-1.09 0-1.658.843-.568.844-.568 2.208 0 1.573.7 2.425.711.853 1.877.853.947 0 1.534-.767.597-.768.597-2.028zm2.681-.682q0 1.26-.312 2.321-.313 1.061-.91 1.838-.587.767-1.468 1.203-.881.427-2.028.427-.871 0-1.563-.436-.682-.445-1.07-1.118v4.614h-.815q-.35 0-.682-.123-.332-.124-.588-.36-.246-.237-.407-.569-.152-.322-.152-.748v-6.329q0-1.298.304-2.387.303-1.09.937-1.857.645-.777 1.63-1.204.995-.426 2.368-.426 1.052 0 1.924.436.871.436 1.497 1.156.634.71.985 1.648.35.929.35 1.914z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83056"/><path d="M127.372 67.192q-.294-.114-.654-.209-.36-.095-.862-.095-.872 0-1.336.512-.464.512-.464 1.715v6.016h-.72q-.872 0-1.393-.427-.511-.426-.511-1.24V68.65q0-.777.208-1.526.218-.748.682-1.307.464-.56 1.203-.91.74-.35 1.772-.35.597 0 1.014.16.417.152.663.399.256.237.37.55.122.302.122.596v.929z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83053"/><path d="M134.234 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.465 0-.863.19-.397.18-.691.482-.294.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.587-.057.919-.17.34-.124.464-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.166.549-3.743.549h-1.705q.152.985.957 1.573.805.578 1.97.578.815 0 1.696-.2.882-.208 1.507-.786h.094V73q0 .502-.189.929-.18.426-.625.748-.446.322-1.175.502-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.379-2.358.379-1.062 1.052-1.8.682-.74 1.62-1.128.947-.398 2.074-.398.815 0 1.564.284.758.275 1.335.796.588.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83050"/><path d="M145.67 71.834q0 1.667-1.127 2.605-1.128.929-3.24.929-.72 0-1.336-.18-.606-.17-1.061-.455-.455-.284-.71-.654-.247-.37-.247-.777v-1.174h.095q.208.189.55.378.34.18.766.323.427.132.891.208.474.076.938.076 1.895 0 1.895-1.147 0-.227-.086-.388-.085-.17-.322-.303-.227-.142-.653-.246-.427-.105-1.109-.209-1.667-.227-2.473-.9-.805-.673-.805-1.876 0-.73.313-1.392.322-.664.9-1.156.587-.493 1.402-.777.815-.294 1.828-.294.891 0 1.516.209.635.199 1.042.53.408.322.588.72.19.398.19.768v.985h-.095q-.408-.408-1.232-.682-.824-.285-1.762-.285-1.194 0-1.649.332-.445.332-.445.834 0 .19.076.34.085.143.303.266.227.114.635.209.407.094 1.08.208 1.658.275 2.501.995t.843 1.98z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83047"/><path d="M153.535 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.464 0-.862.19-.398.18-.692.482-.293.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.588-.057.92-.17.34-.124.463-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.165.549-3.742.549h-1.706q.152.985.957 1.573.806.578 1.97.578.816 0 1.697-.2.88-.208 1.506-.786h.095V73q0 .502-.19.929-.18.426-.625.748t-1.175.502q-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.38-2.358.378-1.062 1.05-1.8.683-.74 1.62-1.128.948-.398 2.076-.398.815 0 1.563.284.758.275 1.336.796.587.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83044"/><path d="M165.437 75.13q-.871 0-1.393-.482-.511-.484-.511-1.223v-4.15q0-1.344-.55-1.941-.55-.607-1.563-.607-.853 0-1.374.616-.52.606-.52 1.734v6.054h-.778q-.833 0-1.335-.483-.493-.484-.493-1.223v-4.519q0-.833.284-1.639.284-.805.853-1.44.568-.634 1.459-1.013.9-.389 2.122-.389.929 0 1.743.303.815.294 1.421.89.616.588.976 1.45.36.863.36 1.971v6.092z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83041"/><path d="M167.166 65.079q0-.389.037-.663.048-.285.133-.512.085-.237.227-.436.152-.208.36-.464.275-.313.588-.512.322-.208.635-.208h.606v2.368h3.629v1.071q0 .407-.38.824-.378.417-1.174.417h-2.075v4.093q0 1.023.426 1.459.427.426 1.222.426 1.28 0 1.876-.37h.105v.93q0 .814-.578 1.278-.569.464-1.715.464-2 0-2.966-1.013-.956-1.023-.956-2.861z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83038"/><path class="st0" d="M54.764 69.142c-2.143-.344-2.831-.503-2.831-1.27 0-.53.397-1.19 2.222-1.19 1.19 0 2.302.238 3.122.687v-.582c0-1.428-1.323-2.275-3.572-2.275s-4.656 1.138-4.656 3.625c0 1.534.846 2.328 2.725 2.593 2.196.317 2.831.529 2.831 1.349 0 1.19-1.561 1.19-2.17 1.19-1.455 0-2.46-.343-3.122-.74v.529c0 .582 0 2.355 3.73 2.355 2.78 0 4.499-1.35 4.499-3.493 0-1.905-1.508-2.566-2.778-2.778z" id="path82600" style="stroke-width:.264583"/><path class="st0" d="M88.34 64.538c-3.678 0-5.716 2.09-5.716 5.874v5.794c0 1.614.582 2.302 1.958 2.302h1.032v-5.027s.027.397.635 1.112c.715.74 1.35.873 2.514.873 2.884 0 4.842-2.276 4.842-5.689 0-3.096-2.17-5.239-5.266-5.239zm.211 8.308c-1.296 0-2.514-.82-2.514-3.148 0-1.614 1.059-2.62 2.117-2.62 1.561 0 2.514.715 2.514 3.07-.027 1.64-.926 2.698-2.117 2.698z" id="path82602" style="stroke-width:.264583"/><path class="st0" d="M97.864 71.285v-7.937c0-1.614-.608-2.276-2.116-2.276h-.98v10.769c0 2.54 1.747 3.44 3.414 3.44.635 0 2.117-.133 2.117-1.403V72.9h-.477c-.846.027-1.958-.159-1.958-1.614z" id="path82604" style="stroke-width:.264583"/><path class="st0" d="M108.739 64.856h-1.508c-.291 2.09-1.085 4.895-1.905 6.535l-.318.662-.29-.688c-.583-1.376-1.35-3.52-1.747-5.24-.185-.846-1.059-1.296-1.8-1.296h-1.56c.529 2.831 2.354 7.409 3.915 9.737l.106.159-.106.211c-.476 1.059-1.058 1.482-2.143 1.588l-1.323.106v.608c0 1.138 1.006 1.561 1.879 1.561 2.143 0 2.805-.502 5.82-6.323 1.218-2.355 2.223-5.477 2.223-6.509.027-.503-.106-1.111-1.243-1.111z" id="path82606" style="stroke-width:.264583"/><path d="M60.135 63.56c.9 0 1.64-.689 1.64-1.535 0-.847-.74-1.535-1.64-1.535-.9 0-1.64.688-1.64 1.535 0 .846.74 1.534 1.64 1.534z" id="path82608" style="fill:#00d455;fill-opacity:1;stroke:#00d455;stroke-opacity:1;stroke-width:1.2;stroke-miterlimit:10"/><path class="st0" d="M69.713 67.184c1.217 0 1.852.741 1.852 2.17v3.916c0 1.402.502 1.878 2.01 1.878h.98v-5.741c0-1.826.952-2.223 1.772-2.223 1.323 0 1.932.715 1.932 2.276v3.81c0 1.217.344 1.878 2.116 1.878h.98v-5.635c0-3.202-1.694-4.975-4.737-4.975-1.481 0-2.698 1.085-3.148 1.8l-.37.582-.265-.635c-.291-.715-1.429-1.747-3.043-1.747-1.085 0-2.037.212-2.805.635-1.428.768-2.17 2.25-2.17 4.234v1.614c0 1.005-.475 1.508-1.48 1.614h-.054c-1.005-.08-1.481-.582-1.481-1.614v-3.546c0-1.772-.53-2.275-2.514-2.275h-.582v6.376c0 .953.238 1.694.688 2.196.661.715 2.064 1.508 3.89 1.508h.079c.502 0 .952-.079 1.323-.158l.079-.027c.9-.211 1.429-.529 1.72-.767l.08-.053c.37-.265 1.348-1.27 1.375-2.646v-2.196c0-.847.212-2.249 1.773-2.249z" id="path82610" style="stroke-width:.264583"/></g><style type="text/css" id="style82598">.st0{fill:#939598}</style></svg>
-        </div>
-      </section>
-        </template>
-      
-                    
-              <template id="columns-edit">
-            <div class="slide slide-edit">
-        <div is="simply-component" rel="columns"></div>
-        <div is="simply-component" rel="slide-editmode-options"></div>
-      </div>
-        </template>
-      
-                    
-              <template id="full-edit">
-            <div class="slide slide-edit">
-        <div is="simply-component" rel="full"></div>
-        <div is="simply-component" rel="slide-editmode-options"></div>
-      </div>
-        </template>
-      
-                    
-              <template id="grid-edit">
-            <div class="slide slide-edit">
-        <div is="simply-component" rel="grid"></div>
-        <div is="simply-component" rel="slide-editmode-options"></div>
-      </div>
-        </template>
-      
-                    
-              <template id="half-grid-edit">
-            <div class="slide slide-edit">
-        <div is="simply-component" rel="half-grid"></div>
-        <div is="simply-component" rel="slide-editmode-options"></div>
-      </div>
-        </template>
-      
-                    
-              <template id="highlight-edit">
-            <div class="slide slide-edit">
-        <div is="simply-component" rel="highlight"></div>
-        <div is="simply-component" rel="slide-editmode-options"></div>
-      </div>
-        </template>
-      
-                    
-              <template id="slide-editmode-options">
-            <div class="slide-editmode-options">
-        <div class="slide-notes slide-edit-field">
-          <label>Speaker notes
-            <textarea data-simply-field="notes"></textarea>
-          </label>
-        </div>
-      </div>
-        </template>
-      
-                    
-              <template id="slides-editmode">
-            <div class="slide-time-edit">
-        <div class="slide-edit-field">
-          <label>Allowed presentation time is 
-            <input type="number" data-simply-field="totalTime" data-simply-transformer="secondsToMinutes" value=10 min=0 step=5> minutes.
-            <br>
-            This allows <span data-simply-field="totalTime" data-simply-transformer="timePerSlide" data-simply-readonly></span> seconds per slide.
-          </label>
-        </div>
-      </div>
-      <div class="slides slides-edit" data-simply-list="slides" data-simply-sortable>
-        <template data-simply-template="title" rel="title-edit"></template>
-        <template data-simply-template="highlight" rel="highlight-edit"></template>
-        <template data-simply-template="grid" rel="grid-edit"></template>
-        <template data-simply-template="half-grid" rel="half-grid-edit"></template>
-        <template data-simply-template="columns" rel="columns-edit"></template>
-        <template data-simply-template="full" rel="full-edit"></template>
-      </div>
-        </template>
-      
-                    
-              <template id="title-edit">
-            <div class="slide slide-edit">
-        <div is="simply-component" rel="title"></div>
-        <div is="simply-component" rel="slide-editmode-options"></div>
-      </div>
-        </template>
-      
-                    
-              <template id="speaker-notes">
-            <div class="slides-speaker-notes" data-simply-list="slides">
-        <template>
-          <div class="slides-speaker-note" data-simply-field="notes"></div>
-        </template>
-      </div>
-        </template>
-      
-                    
-              <template id="timer">
-            <div class="slides-timer">
-      	<input class="hidden" data-simply-field="totalTime">
-      	<label class="slides-timer-time total-time">
-      		Presentation time left
-            <span data-simply-field="total-time-left" data-simply-transformer="secondsToTime"></span>
-      	</label>
-      	<label class="slides-timer-time slide-time">
-      		Slide time left
-            <span data-simply-field="slide-time-left" data-simply-transformer="secondsToTime"></span>
-      	</label>
-      	<ul class="slides-timer-slides" data-simply-list="slides">
-      	<template>
-      		<li class="slides-timer-slide" data-simply-field="time" data-simply-transformer="timeToSize" data-simply-content="fixed">
-      			<label class="slides-timer-time"></label>
-      		</li>
-      	</template>
-      	</ul>
-      	<i class="slides-timer-cursor" data-simply-field="total-time-left" data-simply-transformer="timeToCursor"></i>
-      </div>
-        </template>
-      
-                    
-              <!-- /Component HTML templates -->
-      
-        
-          <div is="simply-component" rel="menu"></div>
-    <main data-simply-field="page" data-simply-content="template">
+          }
+          /* /Routes */
+        });
+      });
+      function clone(ob) {
+        return JSON.parse(JSON.stringify(ob));
+      }
+      function updateDataSource(name) {
+        document.querySelectorAll('[data-simply-data="'+name+'"]').forEach(function(list) {
+          editor.list.applyDataSource(list, name);
+          list.dataBindingPaused = 0;
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Body HTML -->
     
-      
-                      <!-- Page HTML templates -->
-      
-                  
-                    
-                  
-                <template data-simply-template="next-slide">
-              <div is="simply-component" rel="next-slide"></div>
-          </template>
-      
-                    
-                <template data-simply-template="present">
-              <div class="slides-presentor">
-          <div class="left-main">
-            <div is="simply-component" rel="slides"></div>
+    <!-- /Body HTML -->
+    <!-- Component HTML templates -->
+    <template id="about">
+      <dialog class="about">
+      <div class="about-left text-content text-smaller">
+        <h1>About</h1>
+        <p>SimplyPresent is made by <a href="https://muze.nl/" target="_blank">{muze}</a> as OpenSource.
+          You can find the sourcecode at <a href="https://github.com/Poef/SimplyPresent" target="_blank">github.com/SimplyEdit/SimplyPresent.</a></p>
+        <p>SimplyPresent and SimplyCode are made possible with funding and help from the <a href="https://nlnet.nl/" target="_blank">NLnet Foundation</a>.    
+      </div>
+      <div class="about-right welcome-image">
+        <svg viewBox="0 0 124.332 18.909" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg"><defs id="defs2"><path id="rect49632" d="M82.256 400.615H536.32v89.364H82.256z"/><path id="rect4851" d="M81.545 293.798h455.187v111.86H81.545z"/></defs><g id="layer1" transform="translate(-49.049 -59.89)"><path d="M117.781 70.261q0-1.866-.616-2.7-.606-.834-1.866-.834-1.09 0-1.658.843-.568.844-.568 2.208 0 1.573.7 2.425.711.853 1.877.853.947 0 1.534-.767.597-.768.597-2.028zm2.681-.682q0 1.26-.312 2.321-.313 1.061-.91 1.838-.587.767-1.468 1.203-.881.427-2.028.427-.871 0-1.563-.436-.682-.445-1.07-1.118v4.614h-.815q-.35 0-.682-.123-.332-.124-.588-.36-.246-.237-.407-.569-.152-.322-.152-.748v-6.329q0-1.298.304-2.387.303-1.09.937-1.857.645-.777 1.63-1.204.995-.426 2.368-.426 1.052 0 1.924.436.871.436 1.497 1.156.634.71.985 1.648.35.929.35 1.914z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83056"/><path d="M127.372 67.192q-.294-.114-.654-.209-.36-.095-.862-.095-.872 0-1.336.512-.464.512-.464 1.715v6.016h-.72q-.872 0-1.393-.427-.511-.426-.511-1.24V68.65q0-.777.208-1.526.218-.748.682-1.307.464-.56 1.203-.91.74-.35 1.772-.35.597 0 1.014.16.417.152.663.399.256.237.37.55.122.302.122.596v.929z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83053"/><path d="M134.234 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.465 0-.863.19-.397.18-.691.482-.294.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.587-.057.919-.17.34-.124.464-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.166.549-3.743.549h-1.705q.152.985.957 1.573.805.578 1.97.578.815 0 1.696-.2.882-.208 1.507-.786h.094V73q0 .502-.189.929-.18.426-.625.748-.446.322-1.175.502-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.379-2.358.379-1.062 1.052-1.8.682-.74 1.62-1.128.947-.398 2.074-.398.815 0 1.564.284.758.275 1.335.796.588.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83050"/><path d="M145.67 71.834q0 1.667-1.127 2.605-1.128.929-3.24.929-.72 0-1.336-.18-.606-.17-1.061-.455-.455-.284-.71-.654-.247-.37-.247-.777v-1.174h.095q.208.189.55.378.34.18.766.323.427.132.891.208.474.076.938.076 1.895 0 1.895-1.147 0-.227-.086-.388-.085-.17-.322-.303-.227-.142-.653-.246-.427-.105-1.109-.209-1.667-.227-2.473-.9-.805-.673-.805-1.876 0-.73.313-1.392.322-.664.9-1.156.587-.493 1.402-.777.815-.294 1.828-.294.891 0 1.516.209.635.199 1.042.53.408.322.588.72.19.398.19.768v.985h-.095q-.408-.408-1.232-.682-.824-.285-1.762-.285-1.194 0-1.649.332-.445.332-.445.834 0 .19.076.34.085.143.303.266.227.114.635.209.407.094 1.08.208 1.658.275 2.501.995t.843 1.98z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83047"/><path d="M153.535 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.464 0-.862.19-.398.18-.692.482-.293.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.588-.057.92-.17.34-.124.463-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.165.549-3.742.549h-1.706q.152.985.957 1.573.806.578 1.97.578.816 0 1.697-.2.88-.208 1.506-.786h.095V73q0 .502-.19.929-.18.426-.625.748t-1.175.502q-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.38-2.358.378-1.062 1.05-1.8.683-.74 1.62-1.128.948-.398 2.076-.398.815 0 1.563.284.758.275 1.336.796.587.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83044"/><path d="M165.437 75.13q-.871 0-1.393-.482-.511-.484-.511-1.223v-4.15q0-1.344-.55-1.941-.55-.607-1.563-.607-.853 0-1.374.616-.52.606-.52 1.734v6.054h-.778q-.833 0-1.335-.483-.493-.484-.493-1.223v-4.519q0-.833.284-1.639.284-.805.853-1.44.568-.634 1.459-1.013.9-.389 2.122-.389.929 0 1.743.303.815.294 1.421.89.616.588.976 1.45.36.863.36 1.971v6.092z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83041"/><path d="M167.166 65.079q0-.389.037-.663.048-.285.133-.512.085-.237.227-.436.152-.208.36-.464.275-.313.588-.512.322-.208.635-.208h.606v2.368h3.629v1.071q0 .407-.38.824-.378.417-1.174.417h-2.075v4.093q0 1.023.426 1.459.427.426 1.222.426 1.28 0 1.876-.37h.105v.93q0 .814-.578 1.278-.569.464-1.715.464-2 0-2.966-1.013-.956-1.023-.956-2.861z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83038"/><path class="st0" d="M54.764 69.142c-2.143-.344-2.831-.503-2.831-1.27 0-.53.397-1.19 2.222-1.19 1.19 0 2.302.238 3.122.687v-.582c0-1.428-1.323-2.275-3.572-2.275s-4.656 1.138-4.656 3.625c0 1.534.846 2.328 2.725 2.593 2.196.317 2.831.529 2.831 1.349 0 1.19-1.561 1.19-2.17 1.19-1.455 0-2.46-.343-3.122-.74v.529c0 .582 0 2.355 3.73 2.355 2.78 0 4.499-1.35 4.499-3.493 0-1.905-1.508-2.566-2.778-2.778z" id="path82600" style="stroke-width:.264583"/><path class="st0" d="M88.34 64.538c-3.678 0-5.716 2.09-5.716 5.874v5.794c0 1.614.582 2.302 1.958 2.302h1.032v-5.027s.027.397.635 1.112c.715.74 1.35.873 2.514.873 2.884 0 4.842-2.276 4.842-5.689 0-3.096-2.17-5.239-5.266-5.239zm.211 8.308c-1.296 0-2.514-.82-2.514-3.148 0-1.614 1.059-2.62 2.117-2.62 1.561 0 2.514.715 2.514 3.07-.027 1.64-.926 2.698-2.117 2.698z" id="path82602" style="stroke-width:.264583"/><path class="st0" d="M97.864 71.285v-7.937c0-1.614-.608-2.276-2.116-2.276h-.98v10.769c0 2.54 1.747 3.44 3.414 3.44.635 0 2.117-.133 2.117-1.403V72.9h-.477c-.846.027-1.958-.159-1.958-1.614z" id="path82604" style="stroke-width:.264583"/><path class="st0" d="M108.739 64.856h-1.508c-.291 2.09-1.085 4.895-1.905 6.535l-.318.662-.29-.688c-.583-1.376-1.35-3.52-1.747-5.24-.185-.846-1.059-1.296-1.8-1.296h-1.56c.529 2.831 2.354 7.409 3.915 9.737l.106.159-.106.211c-.476 1.059-1.058 1.482-2.143 1.588l-1.323.106v.608c0 1.138 1.006 1.561 1.879 1.561 2.143 0 2.805-.502 5.82-6.323 1.218-2.355 2.223-5.477 2.223-6.509.027-.503-.106-1.111-1.243-1.111z" id="path82606" style="stroke-width:.264583"/><path d="M60.135 63.56c.9 0 1.64-.689 1.64-1.535 0-.847-.74-1.535-1.64-1.535-.9 0-1.64.688-1.64 1.535 0 .846.74 1.534 1.64 1.534z" id="path82608" style="fill:#00d455;fill-opacity:1;stroke:#00d455;stroke-opacity:1;stroke-width:1.2;stroke-miterlimit:10"/><path class="st0" d="M69.713 67.184c1.217 0 1.852.741 1.852 2.17v3.916c0 1.402.502 1.878 2.01 1.878h.98v-5.741c0-1.826.952-2.223 1.772-2.223 1.323 0 1.932.715 1.932 2.276v3.81c0 1.217.344 1.878 2.116 1.878h.98v-5.635c0-3.202-1.694-4.975-4.737-4.975-1.481 0-2.698 1.085-3.148 1.8l-.37.582-.265-.635c-.291-.715-1.429-1.747-3.043-1.747-1.085 0-2.037.212-2.805.635-1.428.768-2.17 2.25-2.17 4.234v1.614c0 1.005-.475 1.508-1.48 1.614h-.054c-1.005-.08-1.481-.582-1.481-1.614v-3.546c0-1.772-.53-2.275-2.514-2.275h-.582v6.376c0 .953.238 1.694.688 2.196.661.715 2.064 1.508 3.89 1.508h.079c.502 0 .952-.079 1.323-.158l.079-.027c.9-.211 1.429-.529 1.72-.767l.08-.053c.37-.265 1.348-1.27 1.375-2.646v-2.196c0-.847.212-2.249 1.773-2.249z" id="path82610" style="stroke-width:.264583"/></g><style type="text/css" id="style82598">.st0{fill:#939598}</style></svg>
+      </div>
+      <button class="about-close" data-simply-command="aboutClose">✕</button>
+    </dialog>
+    </template>
+    <template id="menu">
+      <simply-render rel="about"></simply-render>
+    <button data-simply-command="showMenu" id="SimplyPresentButton" class="ds-button ds-button-naked ds-dropdown">
+      <img class="simplyPresentLogo" src="https://cdn.simplyedit.io/graphics/simply-present-centered.svg" alt="SimplyPresent">
+    </button>
+    <input id="SimplyPresentState" type="checkbox" class="ds-dropdown-state">
+    <nav class="ds-dropdown-nav">
+      <ul class="ds-dropdown-list">
+        <li><a class="ds-dropdown-item" tabindex="0" data-simply-command="present">Present</a></li>
+        <!-- li><a class="ds-dropdown-item" tabindex="0" data-simply-command="share">Share</a></li -->
+        <li><a class="ds-dropdown-item" tabindex="0" data-simply-command="edit">Edit</a></li>
+        <li class="ds-dropdown-divider"></li>
+        <li><a class="ds-dropdown-item" tabindex="0" data-simply-command="aboutOpen">About</a></li>
+      </ul>
+    </nav>
+    <div id="SimplyPresentBackdrop" data-simply-command="hideMenu"></div>
+    </template>
+    <template id="next-slide">
+      <div class="slides slides-next" data-simply-list="slides">
+      <template data-simply-template="title" rel="title"></template>
+      <template data-simply-template="highlight" rel="highlight"></template>
+      <template data-simply-template="hald-grid" rel="half-grid"></template>
+      <template data-simply-template="grid" rel="grid"></template>
+      <template data-simply-template="full" rel="full"></template>
+      <template data-simply-template="columns" rel="columns"></template>
+    </div>
+    </template>
+    <template id="sharing">
+      <div class="simplypresent-sharing">
+      <div
+           data-simply-field="hhsWords" 
+           data-simply-transformer="isShared"
+           data-simply-content="template"
+           data-simply-default-template="0"
+           data-simply-default-value="0"
+           >
+        <template data-simply-template="3">
+          <div>
+            <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="slidesLink">Slides</a>
+            <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="nextSlideLink">Next slide</a>
+            <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="timerLink">Timer</a>
+            <a class="ds-button ds-button-default" data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="speakerNotesLink">Speaker notes</a>
+            <br>
+            Click the button to copy the sharing URL.<br>
+            <a data-simply-field="hhsWords" data-simply-content="fixed" data-simply-command="copyLink" data-simply-transformer="slidesLink">
+              <span data-simply-field="hhsWords" data-simply-transformer="slidesLink"></span>
+            </a>
           </div>
-          <div class="left-bottom">
-            <div is="simply-component" rel="speaker-notes"></div>
-          </div>
-          <div class="right-top">
-            <div is="simply-component" rel="next-slide"></div>
-          </div>
-          <div class="right-center">
-            <div is="simply-component" rel="timer"></div>
-          </div>
-          <div class="right-bottom">
-            <div is="simply-component" rel="sharing"></div>
-          </div>
-        </div>
-          </template>
-      
-                    
-                <template data-simply-template="slides">
-              <div is="simply-component" rel="slides"></div>
-          </template>
-      
-                    
-                <template data-simply-template="slides-editmode">
-              <div is="simply-component" rel="slides-editmode"></div>
-          </template>
-      
-                    
-                <template data-simply-template="speaker-notes">
-              <div is="simply-component" rel="speaker-notes"></div>
-          </template>
-      
-                    
-                <template data-simply-template="timer">
-              <div is="simply-component" rel="timer"></div>
-          </template>
-      
-                    
-                <!-- /Page HTML templates -->
-      
-        
-          </main>
-        <script src="https://unpkg.com/simplyview@2.0.3/dist/simply.everything.js"></script>
-  <script src="https://canary.simplyedit.io/1/simply-edit.js" data-api-key="muze" data-simply-images="img/" data-simply-storage="solidStorage"></script>
-  
-      
-                    <script>
-      
-                /* Transformers */
-          editor.transformers = {
-      
-                  
-                    
-                  
-                "isShared" : {
-            render : function(data) {
+        </template>
+        <template data-simply-template="0">
+          <button class="ds-button ds-button-default" data-simply-command="share" >Start sharing</button> 
+        </template>
+      </div>
+    </div>
+    </template>
+    <template id="columns">
+      <section class="slide slide-columns">
+      <img class="logo" src="img/logo.svg" alt="{logo}">
+      <div class="text-content text-middle" data-simply-field="text">
+      </div>
+      <img class="placeholder cover" data-simply-field="image" src="img/placeholder.jpg" alt="">
+    </section>
+    </template>
+    <template id="full">
+      <section class="slide">
+      <img class="logo" src="img/logo.svg" alt="{logo}">
+      <div class="text-content text-center text-middle">
+        <div data-simply-field="text">text</div>
+      </div>
+    </section>
+    </template>
+    <template id="grid">
+      <section class="slide slide-grid">
+      <img class="logo logo-white" src="img/logo-white.svg" alt="{logo}">
+      <div class="text-content background-highlight text-middle text-center">
+        <i class="icon fa" data-simply-field="icon"></i>
+        <h2 data-simply-field="title">title</h2>
+      </div>
+      <img alt="placeholder" data-simply-field="image" class="placeholder cover" src="img/placeholder.jpg">
+      <div class="text-content" data-simply-field="text">
+      </div>
+      <div class="text-content background-grey" data-simply-field="more-text">
+      </div>
+    </section>
+    
+    </template>
+    <template id="half-grid">
+      <section class="slide slide-grid">
+      <img class="logo logo-white" src="img/logo-white.svg" alt="{logo}">
+      <div class="text-content background-highlight text-middle text-center">
+        <i class="icon fa" data-simply-field="icon"></i>
+        <h2 data-simply-field="title">title</h2>
+      </div>
+      <div class="text-content" data-simply-field="text">
+      </div>
+      <img data-simply-field="image" data-simply-content="attributes" data-simply-attributes="src" class="cover span-row-right placeholder" src="img/placeholder.jpg" alt="">
+    </section>
+    </template>
+    <template id="highlight">
+      <section class="slide background-highlight">
+      <img class="logo logo-white" src="img/logo-white.svg" alt="{logo}">
+      <div class="text-content text-center text-middle">
+        <h2 data-simply-field="title">title</h2>
+        <div data-simply-field="text">text</div>
+      </div>
+    </section>
+    </template>
+    <template id="title">
+      <section class="slide background-highlight">
+      <div class="text-content text-center text-middle">
+        <img class="center max50 logo-white" src="img/logo-white.svg" alt="{logo}">
+        <h1 data-simply-field="title">title</h1>
+        <div data-simply-field="text">text</div>
+      </div>
+    </section>
+    </template>
+    <template id="slides">
+      <div class="slides slides-present" data-simply-list="slides" data-simply-sortable>
+      <simply-render rel="welcome-slide"></simply-render>
+      <template data-simply-template="title" rel="title"></template>
+      <template data-simply-template="highlight" rel="highlight"></template>
+      <template data-simply-template="grid" rel="grid"></template>
+      <template data-simply-template="half-grid" rel="half-grid"></template>
+      <template data-simply-template="columns" rel="columns"></template>
+      <template data-simply-template="full" rel="full"></template>
+    </div>
+    </template>
+    <template id="welcome-slide">
+      <section class="slide slide-columns welcome-slide">
+      <a href="https://www.muze.nl/" class="logo">made by {muze}</a>
+      <div class="text-content text-middle" data-simply-field="text">
+        <h2>Welcome</h2>
+        <p>This slideshow is currently empty.<br><br></p>
+        <p><a class="button highlight" href="?simply-edit">Edit this slideshow</a></p>
+      </div>
+      <div class="welcome-image" title="SimplyPresent">
+    	<svg viewBox="0 0 124.332 18.909" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg"><defs id="defs2"><path id="rect49632" d="M82.256 400.615H536.32v89.364H82.256z"/><path id="rect4851" d="M81.545 293.798h455.187v111.86H81.545z"/></defs><g id="layer1" transform="translate(-49.049 -59.89)"><path d="M117.781 70.261q0-1.866-.616-2.7-.606-.834-1.866-.834-1.09 0-1.658.843-.568.844-.568 2.208 0 1.573.7 2.425.711.853 1.877.853.947 0 1.534-.767.597-.768.597-2.028zm2.681-.682q0 1.26-.312 2.321-.313 1.061-.91 1.838-.587.767-1.468 1.203-.881.427-2.028.427-.871 0-1.563-.436-.682-.445-1.07-1.118v4.614h-.815q-.35 0-.682-.123-.332-.124-.588-.36-.246-.237-.407-.569-.152-.322-.152-.748v-6.329q0-1.298.304-2.387.303-1.09.937-1.857.645-.777 1.63-1.204.995-.426 2.368-.426 1.052 0 1.924.436.871.436 1.497 1.156.634.71.985 1.648.35.929.35 1.914z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83056"/><path d="M127.372 67.192q-.294-.114-.654-.209-.36-.095-.862-.095-.872 0-1.336.512-.464.512-.464 1.715v6.016h-.72q-.872 0-1.393-.427-.511-.426-.511-1.24V68.65q0-.777.208-1.526.218-.748.682-1.307.464-.56 1.203-.91.74-.35 1.772-.35.597 0 1.014.16.417.152.663.399.256.237.37.55.122.302.122.596v.929z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83053"/><path d="M134.234 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.465 0-.863.19-.397.18-.691.482-.294.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.587-.057.919-.17.34-.124.464-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.166.549-3.743.549h-1.705q.152.985.957 1.573.805.578 1.97.578.815 0 1.696-.2.882-.208 1.507-.786h.094V73q0 .502-.189.929-.18.426-.625.748-.446.322-1.175.502-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.379-2.358.379-1.062 1.052-1.8.682-.74 1.62-1.128.947-.398 2.074-.398.815 0 1.564.284.758.275 1.335.796.588.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83050"/><path d="M145.67 71.834q0 1.667-1.127 2.605-1.128.929-3.24.929-.72 0-1.336-.18-.606-.17-1.061-.455-.455-.284-.71-.654-.247-.37-.247-.777v-1.174h.095q.208.189.55.378.34.18.766.323.427.132.891.208.474.076.938.076 1.895 0 1.895-1.147 0-.227-.086-.388-.085-.17-.322-.303-.227-.142-.653-.246-.427-.105-1.109-.209-1.667-.227-2.473-.9-.805-.673-.805-1.876 0-.73.313-1.392.322-.664.9-1.156.587-.493 1.402-.777.815-.294 1.828-.294.891 0 1.516.209.635.199 1.042.53.408.322.588.72.19.398.19.768v.985h-.095q-.408-.408-1.232-.682-.824-.285-1.762-.285-1.194 0-1.649.332-.445.332-.445.834 0 .19.076.34.085.143.303.266.227.114.635.209.407.094 1.08.208 1.658.275 2.501.995t.843 1.98z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83047"/><path d="M153.535 68.167q0-.795-.54-1.184-.53-.388-1.44-.388-.464 0-.862.19-.398.18-.692.482-.293.294-.455.701-.16.408-.18.853l-.019.35h1.156q.938 0 1.516-.056.588-.057.92-.17.34-.124.463-.313.133-.2.133-.465zm2.444.313q0 1.43-1.165 1.99-1.165.549-3.742.549h-1.706q.152.985.957 1.573.806.578 1.97.578.816 0 1.697-.2.88-.208 1.506-.786h.095V73q0 .502-.19.929-.18.426-.625.748t-1.175.502q-.73.19-1.79.19-.976 0-1.905-.37-.928-.37-1.648-1.061-.72-.692-1.156-1.658-.436-.966-.436-2.17 0-1.307.38-2.358.378-1.062 1.05-1.8.683-.74 1.62-1.128.948-.398 2.076-.398.815 0 1.563.284.758.275 1.336.796.587.521.938 1.28.35.757.35 1.695z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83044"/><path d="M165.437 75.13q-.871 0-1.393-.482-.511-.484-.511-1.223v-4.15q0-1.344-.55-1.941-.55-.607-1.563-.607-.853 0-1.374.616-.52.606-.52 1.734v6.054h-.778q-.833 0-1.335-.483-.493-.484-.493-1.223v-4.519q0-.833.284-1.639.284-.805.853-1.44.568-.634 1.459-1.013.9-.389 2.122-.389.929 0 1.743.303.815.294 1.421.89.616.588.976 1.45.36.863.36 1.971v6.092z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83041"/><path d="M167.166 65.079q0-.389.037-.663.048-.285.133-.512.085-.237.227-.436.152-.208.36-.464.275-.313.588-.512.322-.208.635-.208h.606v2.368h3.629v1.071q0 .407-.38.824-.378.417-1.174.417h-2.075v4.093q0 1.023.426 1.459.427.426 1.222.426 1.28 0 1.876-.37h.105v.93q0 .814-.578 1.278-.569.464-1.715.464-2 0-2.966-1.013-.956-1.023-.956-2.861z" style="font-size:19.4028px;line-height:1.25;font-family:Cocon-Regular;-inkscape-font-specification:'Cocon-Regular, Normal';text-align:center;text-anchor:middle;fill:#00d455;stroke-width:.264583" id="path83038"/><path class="st0" d="M54.764 69.142c-2.143-.344-2.831-.503-2.831-1.27 0-.53.397-1.19 2.222-1.19 1.19 0 2.302.238 3.122.687v-.582c0-1.428-1.323-2.275-3.572-2.275s-4.656 1.138-4.656 3.625c0 1.534.846 2.328 2.725 2.593 2.196.317 2.831.529 2.831 1.349 0 1.19-1.561 1.19-2.17 1.19-1.455 0-2.46-.343-3.122-.74v.529c0 .582 0 2.355 3.73 2.355 2.78 0 4.499-1.35 4.499-3.493 0-1.905-1.508-2.566-2.778-2.778z" id="path82600" style="stroke-width:.264583"/><path class="st0" d="M88.34 64.538c-3.678 0-5.716 2.09-5.716 5.874v5.794c0 1.614.582 2.302 1.958 2.302h1.032v-5.027s.027.397.635 1.112c.715.74 1.35.873 2.514.873 2.884 0 4.842-2.276 4.842-5.689 0-3.096-2.17-5.239-5.266-5.239zm.211 8.308c-1.296 0-2.514-.82-2.514-3.148 0-1.614 1.059-2.62 2.117-2.62 1.561 0 2.514.715 2.514 3.07-.027 1.64-.926 2.698-2.117 2.698z" id="path82602" style="stroke-width:.264583"/><path class="st0" d="M97.864 71.285v-7.937c0-1.614-.608-2.276-2.116-2.276h-.98v10.769c0 2.54 1.747 3.44 3.414 3.44.635 0 2.117-.133 2.117-1.403V72.9h-.477c-.846.027-1.958-.159-1.958-1.614z" id="path82604" style="stroke-width:.264583"/><path class="st0" d="M108.739 64.856h-1.508c-.291 2.09-1.085 4.895-1.905 6.535l-.318.662-.29-.688c-.583-1.376-1.35-3.52-1.747-5.24-.185-.846-1.059-1.296-1.8-1.296h-1.56c.529 2.831 2.354 7.409 3.915 9.737l.106.159-.106.211c-.476 1.059-1.058 1.482-2.143 1.588l-1.323.106v.608c0 1.138 1.006 1.561 1.879 1.561 2.143 0 2.805-.502 5.82-6.323 1.218-2.355 2.223-5.477 2.223-6.509.027-.503-.106-1.111-1.243-1.111z" id="path82606" style="stroke-width:.264583"/><path d="M60.135 63.56c.9 0 1.64-.689 1.64-1.535 0-.847-.74-1.535-1.64-1.535-.9 0-1.64.688-1.64 1.535 0 .846.74 1.534 1.64 1.534z" id="path82608" style="fill:#00d455;fill-opacity:1;stroke:#00d455;stroke-opacity:1;stroke-width:1.2;stroke-miterlimit:10"/><path class="st0" d="M69.713 67.184c1.217 0 1.852.741 1.852 2.17v3.916c0 1.402.502 1.878 2.01 1.878h.98v-5.741c0-1.826.952-2.223 1.772-2.223 1.323 0 1.932.715 1.932 2.276v3.81c0 1.217.344 1.878 2.116 1.878h.98v-5.635c0-3.202-1.694-4.975-4.737-4.975-1.481 0-2.698 1.085-3.148 1.8l-.37.582-.265-.635c-.291-.715-1.429-1.747-3.043-1.747-1.085 0-2.037.212-2.805.635-1.428.768-2.17 2.25-2.17 4.234v1.614c0 1.005-.475 1.508-1.48 1.614h-.054c-1.005-.08-1.481-.582-1.481-1.614v-3.546c0-1.772-.53-2.275-2.514-2.275h-.582v6.376c0 .953.238 1.694.688 2.196.661.715 2.064 1.508 3.89 1.508h.079c.502 0 .952-.079 1.323-.158l.079-.027c.9-.211 1.429-.529 1.72-.767l.08-.053c.37-.265 1.348-1.27 1.375-2.646v-2.196c0-.847.212-2.249 1.773-2.249z" id="path82610" style="stroke-width:.264583"/></g><style type="text/css" id="style82598">.st0{fill:#939598}</style></svg>
+      </div>
+    </section>
+    </template>
+    <template id="columns-edit">
+      <div class="slide slide-edit">
+      <simply-render rel="columns"></simply-render>
+      <simply-render rel="slide-editmode-options"></simply-render>
+    </div> 
+    </template>
+    <template id="full-edit">
+      <div class="slide slide-edit">
+      <simply-render rel="full"></simply-render>
+      <simply-render rel="slide-editmode-options"></simply-render> 
+    </div>
+    </template>
+    <template id="grid-edit">
+      <div class="slide slide-edit">
+      <simply-render rel="grid"></simply-render>
+      <simply-render rel="slide-editmode-options"></simply-render>
+    </div>
+    </template>
+    <template id="half-grid-edit">
+      <div class="slide slide-edit">
+      <simply-render rel="half-grid"></simply-render>
+      <simply-render rel="slide-editmode-options"></simply-render>
+    </div>
+    </template>
+    <template id="highlight-edit">
+      <div class="slide slide-edit">
+      <simply-render rel="highlight"></simply-render>
+      <simply-render rel="slide-editmode-options"></simply-render>
+    </div>
+    </template>
+    <template id="slide-editmode-options">
+      <div class="slide-editmode-options">
+      <div class="slide-notes slide-edit-field">
+        <label>Speaker notes
+          <textarea data-simply-field="notes"></textarea>
+        </label>
+      </div>
+    </div>
+    </template>
+    <template id="slides-editmode">
+      <div class="slide-time-edit">
+      <div class="slide-edit-field">
+        <label>Allowed presentation time is 
+          <input type="number" data-simply-field="totalTime" data-simply-transformer="secondsToMinutes" value=10 min=0 step=5> minutes.
+          <br>
+          This allows <span data-simply-field="totalTime" data-simply-transformer="timePerSlide" data-simply-readonly></span> seconds per slide.
+        </label>
+      </div>
+    </div>
+    <div class="slides slides-edit" data-simply-list="slides" data-simply-sortable>
+      <template data-simply-template="title" rel="title-edit"></template>
+      <template data-simply-template="highlight" rel="highlight-edit"></template>
+      <template data-simply-template="grid" rel="grid-edit"></template>
+      <template data-simply-template="half-grid" rel="half-grid-edit"></template>
+      <template data-simply-template="columns" rel="columns-edit"></template>
+      <template data-simply-template="full" rel="full-edit"></template>
+    </div>
+    </template>
+    <template id="title-edit">
+      <div class="slide slide-edit">
+      <simply-render rel="title"></simply-render>
+      <simply-render rel="slide-editmode-options"></div>
+    </div>
+    </template>
+    <template id="speaker-notes">
+      <div class="slides-speaker-notes" data-simply-list="slides">
+      <template>
+        <div class="slides-speaker-note" data-simply-field="notes"></div>
+      </template>
+    </div>
+    </template>
+    <template id="timer">
+      <div class="slides-timer">
+    	<input class="hidden" data-simply-field="totalTime">
+    	<label class="slides-timer-time total-time">
+    		Presentation time left
+          <span data-simply-field="total-time-left" data-simply-transformer="secondsToTime"></span>
+    	</label>
+    	<label class="slides-timer-time slide-time">
+    		Slide time left
+          <span data-simply-field="slide-time-left" data-simply-transformer="secondsToTime"></span>
+    	</label>
+    	<ul class="slides-timer-slides" data-simply-list="slides">
+    	<template>
+    		<li class="slides-timer-slide" data-simply-field="time" data-simply-transformer="timeToSize" data-simply-content="fixed">
+    			<label class="slides-timer-time"></label>
+    		</li>
+    	</template>
+    	</ul>
+    	<i class="slides-timer-cursor" data-simply-field="total-time-left" data-simply-transformer="timeToCursor"></i>
+    </div>
+    </template>
+    <!-- /Component HTML templates -->
+    <nav>
+      <simply-render rel="menu"></simply-render>
+    </nav>
+    <main data-simply-field="page" data-simply-content="template">
+    <!-- Page HTML templates -->
+    <template data-simply-template="next-slide">
+      <simply-render rel="next-slide"></simply-render>
+    </template>
+    <template data-simply-template="present">
+      <div class="slides-presentor">
+      <div class="left-main">
+        <simply-render rel="slides"></simply-render>
+      </div>
+      <div class="left-bottom">
+        <simply-render rel="speaker-notes"></simply-render>
+      </div>
+      <div class="right-top">
+        <simply-render rel="next-slide"></simply-render>
+      </div>
+      <div class="right-center">
+        <simply-render rel="timer"></simply-render>
+      </div>
+      <div class="right-bottom">
+        <simply-render rel="sharing"></simply-render>
+      </div>
+    </div>
+    </template>
+    <template data-simply-template="slides">
+      <simply-render rel="slides"></simply-render>
+    </template>
+    <template data-simply-template="slides-editmode">
+      <simply-render rel="slides-editmode"></simply-render>
+    </template>
+    <template data-simply-template="speaker-notes">
+      <simply-render rel="speaker-notes"></simply-render>
+    </template>
+    <template data-simply-template="timer">
+      <simply-render rel="timer"></simply-render>
+    </template>
+    <!-- /Page HTML templates -->
+    </main>
+    <script src="https://unpkg.com/simplyview@2.0.3/dist/simply.everything.js"></script>
+    <script src="https://canary.simplyedit.io/1/simply-edit.js" data-api-key="muze" data-simply-images="img/" data-simply-storage="solidStorage"></script>
+    <script>
+      /* Transformers */
+      editor.transformers = {
+        "isShared" : {
+          render : function(data) {
             this.originalValue = data
             return data.length
           },
-            extract : function(data) {
+          extract : function(data) {
             return this.originalValue
           }
-          },
-      
-                    
-                "nextSlideLink" : {
-            render : function(data) {
+        },
+        "nextSlideLink" : {
+          render : function(data) {
            this.originalValue = data
            let value = editor.transformers.wordsLink.render(data)
            value += "/#next-slide"
            return value
           },
-            extract : function(data) {
+          extract : function(data) {
             return this.originalValue
           }
-          },
-      
-                    
-                "slidesLink" : {
-            render : function(data) {
+        },
+        "slidesLink" : {
+          render : function(data) {
            this.originalValue = data
            let value = editor.transformers.wordsLink.render(data)
            return value
           },
-            extract : function(data) {
+          extract : function(data) {
             return this.originalValue
           }
-          },
-      
-                    
-                "speakerNotesLink" : {
-            render : function(data) {
+        },
+        "speakerNotesLink" : {
+          render : function(data) {
            this.originalValue = data
            let value = editor.transformers.wordsLink.render(data)
            value += "/#speaker-notes"
            return value
           },
-            extract : function(data) {
+          extract : function(data) {
             return this.originalValue
           }
-          },
-      
-                    
-                "timerLink" : {
-            render : function(data) {
+        },
+        "timerLink" : {
+          render : function(data) {
            this.originalValue = data
            let value = editor.transformers.wordsLink.render(data)
            value += "/#timer"
            return value
           },
-            extract : function(data) {
+          extract : function(data) {
             return this.originalValue
           }
-          },
-      
-                    
-                "wordsLink" : {
-            render : function(data) {
+        },
+        "wordsLink" : {
+          render : function(data) {
            this.originalValue = data
            let value = document.location.origin + document.location.pathname + "#words/" + data.join("/")
            return value
           },
-            extract : function(data) {
+          extract : function(data) {
             return this.originalValue
           }
-          },
-      
-                    
-                "secondsToMinutes" : {
-            render : function(data) {
+        },
+        "secondsToMinutes" : {
+          render : function(data) {
             return parseInt(data / 60)
           },
-            extract : function(data) {
+          extract : function(data) {
             return data * 60
           }
-          },
-      
-                    
-                "timePerSlide" : {
-            render : function(data) {
+        },
+        "timePerSlide" : {
+          render : function(data) {
             this.originalData = data
             if (!editor.pageData.slides) {
               return data
@@ -2202,14 +1880,12 @@
             return timePerSlide
           }
           ,
-            extract : function(data) {
+          extract : function(data) {
             return this.originalData
           }
-          },
-      
-                    
-                "secondsToTime" : {
-            render : function(data) {
+        },
+        "secondsToTime" : {
+          render : function(data) {
             this.originalValue = data
             let total = parseInt(data) || 0
             let hours = Math.floor(Math.abs(total)/3600) || 0
@@ -2220,14 +1896,12 @@
               +(''+(minutes?minutes:0)).padStart(2,'0')
               +':'+(''+seconds).padStart(2,'0')
           },
-            extract : function() {
+          extract : function() {
             return this.originalValue
           }
-          },
-      
-                    
-                "timeToCursor" : {
-            render : function(data) {
+        },
+        "timeToCursor" : {
+          render : function(data) {
             this.originalValue = data
             let current = parseInt(data) || 0
             let total = parseInt(editor.pageData.totalTime)
@@ -2235,14 +1909,12 @@
             this.style.left = Math.min(100-delta,100)+'%'
             return ''
           },
-            extract : function() {
+          extract : function() {
             return this.originalValue
           }
-          },
-      
-                    
-                "timeToSize" : {
-            render : function(data) {
+        },
+        "timeToSize" : {
+          render : function(data) {
             this.originalValue = data
             if (data) {
               let totalSize = editor.pageData.totalTime
@@ -2250,44 +1922,30 @@
               this.style.flex = '0 1 '+ width +'%'
             }
           },
-            extract : function() {
+          extract : function() {
             return this.originalValue
           }
-          }
-      
-                    
-                };
-          /* /Transformers */
-        </script>
-      
+        }
+      };
+      /* /Transformers */
+    </script>
+    <script>
+      /* Sorters */
+      editor.sorters = {
         
-      
-                    <script>
-          // load sorters
-        </script>
-      
+      };
+      /* /Sorters */
+    </script>
+    <script>
+      window.addEventListener("simply-content-loaded", function() {
+        /* Data sources */
         
-      
-                    <script>
-          window.addEventListener("simply-content-loaded", function() {
-            /* Data sources */
-      
-      
-      
-      
-                  /* /Data sources */
-          });
-        </script>
-      
-        
-      
-                    <!-- Foot HTML -->
-      
-                  
-                    
-                  
-              <!-- hhs -->
-          <!-- This field is needed to have a databinding we can react on -->
+        /* /Data sources */
+      });
+    </script>
+    <!-- Foot HTML -->
+    <!-- hhs -->
+    <!-- This field is needed to have a databinding we can react on -->
     <div class="slide" style="display: none" data-simply-field="slide">1</div>
     <script src="https://cdn.jsdelivr.net/npm/@hyper-hyper-space/core@0.12.0/dist-browser/hhs.min.js"></script>
     <script>
@@ -2394,10 +2052,8 @@
       }
     })()
     </script>
-      
-                    
-              <!-- image-styles -->
-          <script>
+    <!-- image-styles -->
+    <script>
       document.addEventListener('simply-content-loaded',function() {
         editor.settings['simply-image'] = {
           style: [
@@ -2427,10 +2083,8 @@
         editor.settings['simply-image-field'] = editor.settings['simply-image']
       })
     </script>
-      
-                    
-              <!-- slidesKeyboard -->
-          <script>
+    <!-- slidesKeyboard -->
+    <script>
       const slidesKeyboard = (() => {
         function keyPrev(event) {
           if (document.body.hasAttribute('data-simply-edit')) {
@@ -2464,10 +2118,8 @@
         }
       })()
     </script>
-      
-                    
-              <!-- present-init -->
-          <script>
+    <!-- present-init -->
+    <script>
         var simplyPresentRequest = null
         var simplyPresentConnection = null
     
@@ -2519,10 +2171,8 @@
     		})
     	}
     </script>
-      
-                    
-              <!-- simply-edit-editmode -->
-          <script>
+    <!-- simply-edit-editmode -->
+    <script>
       document.addEventListener("simply-content-loaded", function() {
         editor.baseURL = "https://canary.simplyedit.io/1/muze/";
         editor.baseURLClean = "https://canary.simplyedit.io/1/";
@@ -2536,14 +2186,10 @@
         window.location.hash='#simply-edit'
       })
     </script>
-      
-                    
-              <!-- rdflib -->
-          <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.32/dist/rdflib.min.js"></script>
-      
-                    
-              <!-- start -->
-          <script>
+    <!-- rdflib -->
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.32/dist/rdflib.min.js"></script>
+    <!-- start -->
+    <script>
       simply.route.init({
         root: document.location.pathname
       });
@@ -2564,13 +2210,6 @@
         },10);
       })
     </script>
-      
-                    
-              <!-- /Foot HTML -->
-      
-        
-        </body>
-        
-      </html>
-        
-        
+    <!-- /Foot HTML -->
+  </body>
+</html>
